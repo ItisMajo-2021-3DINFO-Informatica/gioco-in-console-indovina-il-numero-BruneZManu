@@ -33,7 +33,7 @@ namespace GiocoIndovinaIlNumero
                     
                  }while(tent != num);
 
-            Console.WriteLine($"Il punteggio è di {punteggio-i*1000} ");
+            Console.WriteLine($"Indovinato! Hai fatto {i} tentativi e Il punteggio è di {punteggio-i*1000} ");
         }
     }
 }
